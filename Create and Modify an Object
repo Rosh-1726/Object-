@@ -1,0 +1,17 @@
+// 1. Create student object
+let student = {
+    name: "Alex",
+    age: 20,
+    grade: "B"
+};
+
+// 2. Add 'subject' property
+student.subject = "Math";
+
+// 3. Update 'grade' property
+student.grade = "A";
+
+// 4. Delete 'age' property
+delete student.age;
+
+console.log(student);
