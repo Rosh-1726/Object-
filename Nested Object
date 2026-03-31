@@ -1,0 +1,13 @@
+/ Create book object with nested details
+const book = {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    details: {
+        pages: 180,
+        genre: "Classic Literature"
+    }
+};
+
+// Access and log the pages and genre
+console.log("Pages:", book.details.pages);
+console.log("Genre:", book.details.genre);
