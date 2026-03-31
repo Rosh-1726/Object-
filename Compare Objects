@@ -1,0 +1,15 @@
+const person1 = { name: "John", age: 25 };
+const person2 = { name: "Jane", age: 25 };
+
+// Compare name and age
+if (person1.name === person2.name) {
+    console.log("Names are the same.");
+} else {
+    console.log("Names are different.");
+}
+
+if (person1.age === person2.age) {
+    console.log("Ages are the same.");
+} else {
+    console.log("Ages are different.");
+}
