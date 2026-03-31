@@ -1,0 +1,10 @@
+const product = {
+    name: "Laptop",
+    price: 999,
+    stock: 25
+};
+
+// Using a for...in loop to log keys and values
+for (let key in product) {
+    console.log(`${key}: ${product[key]}`);
+}
